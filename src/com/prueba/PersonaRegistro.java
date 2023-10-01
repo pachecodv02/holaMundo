@@ -5,6 +5,7 @@ public class PersonaRegistro {
 
     @Override
     public String toString() {
+        System.out.println("Fucnion inservible");
         return "PersonaRegistro{" +
                 "nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
