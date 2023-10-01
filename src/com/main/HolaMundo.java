@@ -2,6 +2,9 @@ package com.main;
 
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        Mensaje msj  = new Mensaje();
+        String nombre= msj.solicitaDatos("Escribe tu nombre: ");
+        msj.saludar(nombre);
+
     }
 }
