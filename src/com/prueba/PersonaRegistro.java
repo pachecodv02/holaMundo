@@ -5,7 +5,8 @@ public class PersonaRegistro {
 
     @Override
     public String toString() {
-        System.out.println("Fucnion inservible");
+        //comete la linea d codigo que se ude eliminar 
+        //System.out.println("Fucnion inservible");
         return "PersonaRegistro{" +
                 "nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
